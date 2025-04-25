@@ -252,3 +252,65 @@ img {
 .for-whom-image {
   flex-basis: 50%;
 }
+
+/* ****** testimonial section ****** */
+
+.testimonial-content {
+  column-count: 3;
+  column-gap: 30px;
+  padding-top: 64px;
+}
+.testimonial-item {
+  display: inline-block;
+  width: 100%;
+  height: min-content;
+  min-height: 0;
+  box-sizing: border-box;
+  flex-direction: column;
+  gap: 200px;
+  border: 1px solid #e2e8f0;
+  border-radius: 26px;
+  padding: 40px 58px 40px 40px;
+  margin-bottom: 30px;
+  break-inside: avoid;
+}
+
+.rating {
+  display: flex;
+  width: 26px;
+  gap: 10px;
+  padding-bottom: 24px;
+}
+.testi-text p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--gray-lightColor);
+  line-height: 160%;
+  padding-bottom: 24px;
+}
+.person {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.person-image {
+  width: 50px;
+}
+.person-identity {
+}
+.person-identity h3 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  color: var(--gray-darkColor);
+  line-height: 22px;
+  letter-spacing: -0.112px;
+}
+.person-identity p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--gray-lightColor);
+  line-height: 160%;
+}
