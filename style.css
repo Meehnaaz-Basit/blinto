@@ -444,6 +444,11 @@ nav {
   gap: 20px;
   padding-top: 20px;
 }
+.frame-large {
+}
+.frame-small {
+  display: none;
+}
 
 /* ****** footer section ******* */
 footer {
