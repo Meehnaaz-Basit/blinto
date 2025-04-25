@@ -105,6 +105,62 @@
     line-height: 24px;
     letter-spacing: -0.144px;
   }
+  /* ******* statistic section ****** */
+  .statistics-content {
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 50px;
+  }
+  .line-separator {
+    background-color: #cbd5e1;
+    width: 96%;
+    margin: 0 auto;
+    height: 1px;
+    margin: 24px 0px;
+  }
+  .static-item > h3 {
+    padding: 0px 0px 0px;
+  }
+  /* **** for whom *** */
+  .for-whom-section {
+    margin: 0px 10px;
+  }
+  .whom-pera {
+    width: 100%;
+  }
+  .for-whom-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 40px;
+  }
+  .for-whom-description {
+    flex-basis: 100%;
+  }
+  .for-whom-image {
+    flex-basis: 100%;
+  }
+  .whom-item {
+    margin: 10px 0px;
+    padding: 26px 10px 26px 26px;
+  }
+  /* ******** testimonial ********* */
+  .testimonial-content {
+    column-count: 1;
+  }
+  .testimonial-item {
+    padding: 20px 20px 20px 20px;
+  }
+  .rating {
+    width: 22px;
+  }
+  .person-identity h3 {
+    font-size: 14px;
+  }
+  .person-identity p {
+    font-size: 14px;
+  }
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -207,6 +263,62 @@
     font-size: 18px;
     line-height: 24px;
     letter-spacing: -0.144px;
+  }
+  /* ******* statistic section ****** */
+  .statistics-content {
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 50px;
+  }
+  .line-separator {
+    background-color: #cbd5e1;
+    width: 96%;
+    margin: 0 auto;
+    height: 1px;
+    margin: 24px 0px;
+  }
+  .static-item > h3 {
+    padding: 0px 0px 0px;
+  }
+  /* **** for whom *** */
+  .for-whom-section {
+    margin: 0px 10px;
+  }
+  .whom-pera {
+    width: 100%;
+  }
+  .for-whom-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 40px;
+  }
+  .for-whom-description {
+    flex-basis: 100%;
+  }
+  .for-whom-image {
+    flex-basis: 100%;
+  }
+  .whom-item {
+    margin: 10px 0px;
+    padding: 26px 10px 26px 26px;
+  }
+  /* ******** testimonial ********* */
+  .testimonial-content {
+    column-count: 1;
+  }
+  .testimonial-item {
+    padding: 30px 30px 30px 20px;
+  }
+  .rating {
+    width: 22px;
+  }
+  .person-identity h3 {
+    font-size: 14px;
+  }
+  .person-identity p {
+    font-size: 14px;
   }
 }
 /* Medium devices (tablets, 768px and up) */
@@ -311,11 +423,61 @@
     line-height: 24px;
     letter-spacing: -0.144px;
   }
+  /* ********** static ******** */
+  .statistics-content {
+    gap: 10px;
+    padding-top: 60px;
+  }
+  .static-item > h3 {
+    font-size: 50px;
+
+    color: var(--primary-color);
+    padding: 0px 20px 12px;
+  }
+  /* **** for whom *** */
+  .for-whom-section {
+    margin: 0px 10px;
+  }
+  .whom-pera {
+    width: 100%;
+  }
+  .for-whom-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 40px;
+  }
+  .for-whom-description {
+    flex-basis: 100%;
+  }
+  .for-whom-image {
+    flex-basis: 100%;
+  }
+  .whom-item {
+    margin: 10px 0px;
+    padding: 26px 10px 26px 26px;
+  }
+  /* ******** testimonial ********* */
+  .testimonial-content {
+    column-count: 2;
+  }
+  .testimonial-item {
+    padding: 30px 30px 30px 20px;
+  }
+  .rating {
+    width: 22px;
+  }
+  .person-identity h3 {
+    font-size: 14px;
+  }
+  .person-identity p {
+    font-size: 14px;
+  }
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
   /* **** feature section ***** */
-  /* ***** feature section ***** */
+
   .feature-content {
     grid-template-columns: repeat(2, auto);
     padding-top: 20px;
@@ -333,10 +495,52 @@
     line-height: 24px;
     letter-spacing: -0.144px;
   }
+  /* *** for whom **** */
+  .whom-item {
+    padding: 26px 10px 26px 26px;
+  }
+  /* ******** testimonial ********* */
+  .testimonial-content {
+    column-count: 2;
+  }
+  .testimonial-item {
+    padding: 30px 30px 30px 20px;
+  }
+  .rating {
+    width: 22px;
+  }
+  .person-identity h3 {
+    font-size: 14px;
+  }
+  .person-identity p {
+    font-size: 14px;
+  }
 }
 /* Extra Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* *** for whom **** */
+  .whom-item {
+    padding: 26px 10px 26px 26px;
+  }
+  /* ******** testimonial ********* */
+
+  .testimonial-item {
+    padding: 30px 30px 30px 20px;
+  }
+  .rating {
+    width: 22px;
+  }
+  .person-identity h3 {
+    font-size: 14px;
+  }
+  .person-identity p {
+    font-size: 14px;
+  }
 }
 /* Extra Extra large devices (large desktops, 1400px and up) */
-@media (min-width: 1400px) {
+@media (min-width: 1400px) and (max-width: 1499.98px) {
+  /* *** for whom **** */
+  .whom-item {
+    padding: 26px 10px 26px 26px;
+  }
 }
