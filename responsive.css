@@ -36,7 +36,7 @@
     left: 0;
     transform: translateX(-100%);
     height: 100vh;
-    width: 90%;
+    width: 100%;
     background-color: #eef2ff;
     flex-direction: column;
     padding: 40px;
@@ -162,6 +162,15 @@
   .person-identity p {
     font-size: 14px;
   }
+  .testimonial-item:nth-child(n + 4) {
+    display: none;
+  }
+  .testimonial-item.show {
+    display: flex;
+  }
+  .testi-button {
+    display: block;
+  }
   /* **** location section **** */
   .location-content {
     grid-template-columns: repeat(1, 1fr);
@@ -194,6 +203,31 @@
   }
   .frame-small {
     display: block;
+  }
+  /* **** footer ***** */
+  .footer-links {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+  }
+  .footer-info {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .foot-logo {
+    width: 120px;
+    margin: 0 auto;
+  }
+  .foot-copyright p {
+    text-align: center;
+  }
+  .foot-logo {
+    order: 1;
+  }
+  .foot-scroll {
+    order: 3;
+  }
+  .foot-copyright {
+    order: 1;
   }
 }
 /* Small devices (landscape phones, 576px and up) */
@@ -229,7 +263,7 @@
     left: 0;
     transform: translateX(-100%);
     height: 100vh;
-    width: 90%;
+    width: 100%;
     background-color: #eef2ff;
     flex-direction: column;
     padding: 40px;
@@ -385,6 +419,31 @@
   .frame-small {
     display: block;
   }
+  /* **** footer ***** */
+  .footer-links {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+  .footer-info {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .foot-logo {
+    width: 120px;
+    margin: 0 auto;
+  }
+  .foot-copyright p {
+    text-align: center;
+  }
+  .foot-logo {
+    order: 1;
+  }
+  .foot-scroll {
+    order: 3;
+  }
+  .foot-copyright {
+    order: 1;
+  }
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -419,7 +478,7 @@
     left: 0;
     transform: translateX(-100%);
     height: 100vh;
-    width: 90%;
+    width: 100%;
     background-color: #eef2ff;
     flex-direction: column;
     padding: 40px;
@@ -568,6 +627,31 @@
   }
   .frame-small {
     display: block;
+  }
+  /* **** footer ***** */
+  .footer-links {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+  }
+  .footer-info {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .foot-logo {
+    width: 120px;
+    margin: 0 auto;
+  }
+  .foot-copyright p {
+    text-align: center;
+  }
+  .foot-logo {
+    order: 1;
+  }
+  .foot-scroll {
+    order: 3;
+  }
+  .foot-copyright {
+    order: 1;
   }
 }
 /* Large devices (desktops, 992px and up) */
