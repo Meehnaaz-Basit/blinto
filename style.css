@@ -19,6 +19,29 @@ img {
   width: 100%;
 }
 /****** common reusable style *****/
+.transp-common-btn {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: -0.112px;
+  color: var(--primary-color);
+  padding: 12px 20px;
+  border: 1px solid var(--primary-color);
+  border-radius: 50px;
+}
+.common-btn {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: -0.112px;
+  color: white;
+  padding: 12px 20px;
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 50px;
+}
 .section {
   padding: 96px 0px;
 }
@@ -254,7 +277,9 @@ img {
 }
 
 /* ****** testimonial section ****** */
-
+.testimonial-section {
+  background-color: var(--bg-lightColor);
+}
 .testimonial-content {
   column-count: 3;
   column-gap: 30px;
@@ -297,8 +322,6 @@ img {
 .person-image {
   width: 50px;
 }
-.person-identity {
-}
 .person-identity h3 {
   font-size: 16px;
   font-style: normal;
@@ -313,4 +336,72 @@ img {
   font-weight: 400;
   color: var(--gray-lightColor);
   line-height: 160%;
+}
+
+/* **** location section **** */
+.location-pera {
+  width: 100%;
+  padding: 0 0;
+}
+.location-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  padding-top: 64px;
+}
+.location-item {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  border: 1px solid #e2e8f0;
+  border-radius: 30px;
+  padding: 28px;
+  width: 100%;
+}
+.location-logo {
+  width: 24px;
+}
+.location-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.location-info > h3 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  color: var(--gray-darkColor);
+  line-height: 28px;
+  letter-spacing: -0.2px;
+}
+.location-info > p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--gray-darkColor);
+  line-height: 160%;
+}
+/* **** download section **** */
+.download-section {
+  background-color: var(--primary-lightColor);
+}
+.download-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-download {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.download-text {
+  flex-basis: 50%;
+}
+.download-buttons {
+  display: flex;
+  gap: 20px;
+  padding-top: 20px;
 }
