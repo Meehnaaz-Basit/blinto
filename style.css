@@ -14,6 +14,7 @@
 }
 body {
   font-family: var(--font-family);
+  scroll-behavior: smooth;
 }
 img {
   width: 100%;
@@ -29,6 +30,8 @@ img {
   padding: 12px 20px;
   border: 1px solid var(--primary-color);
   border-radius: 50px;
+  background-color: transparent;
+  cursor: pointer;
 }
 .common-btn {
   font-size: 16px;
@@ -41,6 +44,7 @@ img {
   background-color: var(--primary-color);
   border: 1px solid var(--primary-color);
   border-radius: 50px;
+  cursor: pointer;
 }
 .section {
   padding: 96px 0px;
@@ -86,6 +90,41 @@ img {
   color: var(--gray-lightColor);
   line-height: 160%;
   padding: 0px 40px;
+}
+/* ***** navbar ****** */
+nav {
+  padding: 20px 0px;
+}
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-logo {
+  width: 120px;
+}
+.nav-items {
+  display: flex;
+  gap: 32px;
+}
+.nav-items li {
+  list-style: none;
+}
+.nav-items li a {
+  text-decoration: none;
+  color: var(--gray-lightColor);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: -0.112px;
+}
+.nav-buttons {
+  display: flex;
+  gap: 10px;
+}
+.hamburger {
+  display: none;
 }
 /***** banner ******/
 .banner-section {
