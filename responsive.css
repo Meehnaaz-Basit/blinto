@@ -187,6 +187,28 @@
   .location-item {
     padding: 20px;
   }
+  /* **** faq section **** */
+  .faq-content {
+    width: 98%;
+    padding-top: 40px;
+  }
+  .faq-text {
+    padding: 8px;
+  }
+  .faq-question {
+    gap: 16px;
+  }
+
+  .question-text > h3 {
+    font-size: 14px;
+  }
+  .faq-answer > p {
+    padding: 20px 0px 10px 0px;
+  }
+  .question-open-icon {
+    width: 30px;
+    height: 30px;
+  }
   /* **** download section **** */
   .download-section {
     padding-top: 64px;
@@ -402,6 +424,28 @@
   .location-item {
     padding: 20px;
   }
+  /* **** faq section **** */
+  .faq-content {
+    width: 98%;
+    padding-top: 40px;
+  }
+  .faq-text {
+    padding: 8px;
+  }
+  .faq-question {
+    gap: 16px;
+  }
+
+  .question-text > h3 {
+    font-size: 14px;
+  }
+  .faq-answer > p {
+    padding: 20px 0px 10px 0px;
+  }
+  .question-open-icon {
+    width: 20px;
+    height: 20px;
+  }
   /* **** download section **** */
   .download-section {
     padding-top: 64px;
@@ -611,6 +655,28 @@
   .location-item {
     padding: 20px;
   }
+  /* **** faq section **** */
+  .faq-content {
+    width: 98%;
+    padding-top: 40px;
+  }
+  .faq-text {
+    padding: 8px;
+  }
+  .faq-question {
+    gap: 16px;
+  }
+
+  .question-text > h3 {
+    font-size: 14px;
+  }
+  .faq-answer > p {
+    padding: 20px 0px 10px 0px;
+  }
+  .question-open-icon {
+    width: 20px;
+    height: 20px;
+  }
   /* **** download section **** */
   .download-section {
     padding-top: 64px;
@@ -707,6 +773,11 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
   }
+  /* **** faq section **** */
+  .faq-content {
+    width: 70%;
+    padding-top: 40px;
+  }
 }
 /* Extra Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
@@ -727,6 +798,11 @@
   }
   .person-identity p {
     font-size: 14px;
+  }
+  /* **** faq section **** */
+  .faq-content {
+    width: 70%;
+    padding-top: 40px;
   }
 }
 /* Extra Extra large devices (large desktops, 1400px and up) */

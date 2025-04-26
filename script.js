@@ -1,3 +1,5 @@
+// footer scrool
+
 const scrollButton = document.querySelector(".foot-scroll");
 
 scrollButton.addEventListener("click", () => {
@@ -7,6 +9,8 @@ scrollButton.addEventListener("click", () => {
   });
 });
 
+// nav menu open in small screen
+
 const hamburger = document.querySelector(".hamburger");
 const navItems = document.querySelector(".nav-items");
 const navButtons = document.querySelector(".nav-buttons");
@@ -15,6 +19,8 @@ hamburger.addEventListener("click", () => {
   navItems.classList.toggle("active");
   navButtons.classList.toggle("active");
 });
+
+// tectimonial button
 
 function toggleItems() {
   const items = document.querySelectorAll(".testimonial-item");
@@ -40,3 +46,12 @@ function toggleItems() {
     plusImage.classList.add("hidden");
   }
 }
+
+// faq toggle answer
+const faqs = document.querySelectorAll(".faq-text");
+
+faqs.forEach((faq) => {
+  faq.addEventListener("click", () => {
+    faq.classList.toggle("active");
+  });
+});
