@@ -376,32 +376,29 @@ nav {
   color: var(--gray-lightColor);
   line-height: 160%;
 }
-.testi-button {
-  display: flex;
-  flex-direction: column;
+.testimonial-button {
   background-color: var(--primary-color);
-  gap: 10px;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 8px 0px;
+  color: white;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.084px;
+  padding: 10px;
   border-radius: 20px;
-  cursor: pointer;
   display: none;
+  cursor: pointer;
 }
 .load-more {
-  color: white;
-  background-color: var(--primary-color);
-  border: none;
-  font-weight: 700;
-  background-color: greenyellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
   cursor: pointer;
-  /* display: none; */
 }
 .plus {
   width: 20px;
-  margin: 0 auto;
-  background-color: red;
+  cursor: pointer;
 }
 /* **** location section **** */
 .location-pera {
