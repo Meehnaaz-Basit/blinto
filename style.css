@@ -126,6 +126,7 @@ nav {
 .hamburger {
   display: none;
   padding-right: 12px;
+  cursor: pointer;
 }
 /***** banner ******/
 .banner-section {
